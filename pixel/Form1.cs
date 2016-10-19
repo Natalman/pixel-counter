@@ -20,7 +20,8 @@ namespace pixel
         private void Form1_Load(object sender, EventArgs e)
         {
             int pixels = getPixels();
-            PixelsLabel.Text = "This windows contains " + pixels + " pixels";
+            PixelsLabel.Text = "After Resizing, this Windows contains " + pixels + "Pixels";
+
         }
         private int getPixels()
         {
